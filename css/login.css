@@ -1,0 +1,282 @@
+body {
+    background: #fff;
+    overflow-y: auto;
+}
+/*header start*/
+.head-container{
+    margin-bottom: 20px;
+    position: relative;
+    background: rgb(0,135,135);
+}
+
+.w{
+    width: 990px;
+    margin:0 auto;
+}
+
+.header{
+    background: rgb(0,135,135);
+}
+
+.header .logo{
+    float: left;
+    margin: 5px 20px 5px 0;
+}
+
+.header .logo img{
+    width: 126px;
+    height: 55px;
+}
+
+.quick-menu{
+    height: 55px;
+    padding: 18px 0 0 100px;
+}
+
+.quick-menu ul{
+    width: 760px;
+}
+
+.quick-menu ul li{
+    height: 36px;
+    float: left;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+.quick-menu ul li a{
+    text-decoration: none;
+}
+
+.quick-menu ul li p{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 19px;
+    color: #FFFFFF;
+    margin: 0px 30px 0 30px;
+}
+
+.container-fluid{
+    width: 100%;
+    height: 650px;
+    margin-top: -20px;
+    padding-top: 50px;
+    min-width: 990px;
+    background: url("../img/login-bg.png") no-repeat center top;
+}
+
+.wrap{
+    width: 990px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.fr{
+    float: right;
+}
+
+.cl-mt{
+    margin-top: 0px;
+}
+
+.field{
+    margin: 25px 30px 0 35px;
+}
+
+.login{
+    background: rgba(255, 255, 255, 0.5);
+    background: #FFFFFF\9;
+    float: right;
+    width: 402px;
+    position: relative;
+    height: 402px;
+    right: 15px;
+}
+
+.login .login-title{
+    padding: 0 50px;
+    height: 52px;
+}
+
+.login h3{
+    font-weight: 400;
+    opacity : 0.6;
+    margin-bottom: 0px;
+    font-family: "Microsoft YaHei";
+}
+
+.login-content{
+    height: 315px;
+}
+
+.login-form{
+    margin: 15px 0 0 28px;
+    border-color: #E0E1E2;
+    border-style: solid;
+    border-width: 1px;
+    background: rgba(255, 255, 255, 0.5);
+    background: #FFFFFF\9;
+    width: 340px;
+    height: 130px;
+}
+
+.login-form .field input{
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0);
+    width: 250px;
+
+}
+
+.login-form .field .check-box{
+    width: 16px;
+    height: 16px;
+}
+
+.login-form .login-selection label{
+    font-weight: normal;
+}
+
+a.forget{
+    float: right;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    text-decoration: underline;
+    color: #FF0000;
+}
+
+.login-form .user-field{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dedede;
+}
+
+.login-form .login-selection{
+    margin: 0 0 15px 0;
+    padding-top: 15px;
+}
+
+.login-form .user-field img{
+    width: 18px;
+    height: 18px;
+}
+
+.login-form .pwd-field{
+    margin: 10px 0 40px 35px;
+}
+
+.login-form .pwd-field img{
+    width: 18px;
+    height: 18px;
+}
+
+.login-form .login-input{
+    margin-bottom: 20px;
+    height: 46px;
+    
+}
+
+.btn{
+    color: #fff;
+    font-size: 22px;
+    font-weight: normal;
+    font-family: "Microsoft YaHei";
+    text-align: center;
+    width: 340px;
+    height: 50px;
+    line-height: 40px;
+    text-shadow: none;
+    box-shadow: none;
+    padding: 0;
+}
+
+.login-form .btn-login{
+    background: #E38D8C;
+}
+
+.btn-reg{
+    background: rgba(0, 135, 135, 0.6);
+    background: #008787\9;
+    width: 402px;
+    border-radius: initial;
+    height: 70px;
+    line-height: 60px;
+}
+
+.login-form .conn-login{
+    margin-top: 5px;
+}
+
+a.qq-login{
+    background-position: 0px 0px;
+    margin-left: 45px;
+}
+a.weibo-login{
+    background-position: 0px -54px;
+    margin-left: 50px;
+}
+a.taobao-login{
+    background-position: 0px -113px;
+    margin-left: 50px;
+}
+.icon-45{
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    margin-top: -4px;
+    margin-right: .3em;
+    line-height: 45px;
+    vertical-align: middle;
+    background-image: url(../img/icon-sp.png);
+    background-position: 45px 45px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+}
+
+/** footer*/
+.foot-container{
+    position: relative;
+    background: rgb(0,135,135);
+}
+
+.footer{
+    background: rgb(0,135,135);
+    padding: 40px;
+}
+
+.ft-logo{
+    width: 200px;
+    float: left;
+}
+
+.ft-content{
+    float: left;
+    position: relative;
+}
+
+.ft-content dl {
+    float: left;
+    width: 125px;
+    margin: 0px;
+}
+
+.ft-content dl dt{
+    font-family: "Microsoft YaHei";
+    color: #ffffff;
+    height: 32px;
+    line-height: 32px;
+}
+
+.ft-content dl dd a{
+    color: rgb(222, 225, 228)
+}
+
+.wrapper{
+    padding:20 0 20 0;
+}
+
+.ft-qr{
+    float: right;
+}
